@@ -178,6 +178,7 @@
 .home-text11 {
   color: #ffffff;
   font-size: 3rem;
+  align-self: center;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .home-container2 {

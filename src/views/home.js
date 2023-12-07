@@ -162,7 +162,7 @@ const Home = (props) => {
           <br className="home-text22"></br>
           <span>Development: Hamza | hamzieee</span>
           <br></br>
-          <span>Logo: Pandedwards | panedwards</span>
+          <span>Logo: Panedwards | panedwards</span>
           <br></br>
         </span>
       </div>
