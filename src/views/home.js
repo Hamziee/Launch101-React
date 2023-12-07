@@ -143,7 +143,7 @@ const Home = (props) => {
             I made Launch101 as a fun experiment to see what the limits were of
             Python and to learn new stuff. The idea came up because I wanted to
             make it easy for people to install and use Link101&apos;s Minecraft
-            modpacks. It&apos;s all about making Minecraft more straightforward
+            modpacks. It&apos;s all about using modpacks more straightforward
             and enjoyable for everyone. - Hamza
             <span
               dangerouslySetInnerHTML={{
