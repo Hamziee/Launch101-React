@@ -130,7 +130,7 @@ const Home = (props) => {
           ></FeatureCard2>
           <FeatureCard2
             title="Support Developers"
-            description="We will be donating 70% of the website's revenue to mod developers included in the modpacks. (Coming Soon)"
+            description="We will be donating 50% of the website's revenue to mod developers included in the modpacks. (Coming Soon)"
             rootClassName="rootClassName1"
           ></FeatureCard2>
         </div>
