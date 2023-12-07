@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import NavigationLinks from '../components/navigation-links'
 import FeatureCard2 from '../components/feature-card2'
+import Footer from '../components/footer'
 import './home.css'
 
 const Home = (props) => {
@@ -12,7 +13,19 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>Launch101</title>
+        <meta
+          name="description"
+          content="Launch101 allows you to install and play your favorite Link101 Modpacks, all in one neat little package."
+        />
         <meta property="og:title" content="Launch101" />
+        <meta
+          property="og:description"
+          content="Launch101 allows you to install and play your favorite Link101 Modpacks, all in one neat little package."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/9eff9b94-ff27-418b-83d3-94c1a74f7304/1bfa5f69-5f3e-4342-8290-d26c0f959568?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <header data-role="Header" className="home-header">
         <img alt="logo" src="/logo-200h.png" className="home-image" />
@@ -140,35 +153,20 @@ const Home = (props) => {
           </span>
           <br></br>
           <br></br>
-          <span className="home-text18">Credits (Name | Discord Username)</span>
-          <br className="home-text19"></br>
+          <span>
+            ____________________________________________________________________________
+          </span>
+          <br></br>
+          <br></br>
+          <span className="home-text21">Credits (Name | Discord Username)</span>
+          <br className="home-text22"></br>
           <span>Development: Hamza | hamzieee</span>
           <br></br>
           <span>Logo: Pandedwards | panedwards</span>
           <br></br>
         </span>
       </div>
-      <footer className="home-footer">
-        <img alt="logo" src="/logo-200h.png" className="home-image2" />
-        <img
-          alt="logo"
-          src="/heo%20systems%20modern%20transparent-200h.png"
-          className="home-image3"
-        />
-        <div className="home-container3">
-          <span className="home-text24">
-            <span className="home-text25">
-              © 2023 HEO Systems, All Rights Reserved.
-            </span>
-            <br></br>
-          </span>
-          <span className="home-text27">
-            <span>We are in no way affiliated with Minecraft or Mojang.</span>
-            <br></br>
-          </span>
-        </div>
-        <div className="home-container4"></div>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }

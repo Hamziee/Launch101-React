@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks from '../components/navigation-links'
+import Footer from '../components/footer'
 import './download.css'
 
 const Download = (props) => {
@@ -11,7 +12,19 @@ const Download = (props) => {
     <div className="download-container">
       <Helmet>
         <title>download - Launch101</title>
+        <meta
+          name="description"
+          content="Launch101 allows you to install and play your favorite Link101 Modpacks, all in one neat little package."
+        />
         <meta property="og:title" content="download - Launch101" />
+        <meta
+          property="og:description"
+          content="Launch101 allows you to install and play your favorite Link101 Modpacks, all in one neat little package."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/9eff9b94-ff27-418b-83d3-94c1a74f7304/1bfa5f69-5f3e-4342-8290-d26c0f959568?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <header data-role="Header" className="download-header">
         <Link to="/" className="download-navlink">
@@ -89,8 +102,9 @@ const Download = (props) => {
             Download for windows
           </a>
         </div>
-        <span className="download-text4">vALPHA2 | Windows 10+</span>
+        <span className="download-text4">vALPHA3 | Windows 10+</span>
       </div>
+      <Footer></Footer>
     </div>
   )
 }
