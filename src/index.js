@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import Version from './views/version'
+import Download from './views/download'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={Version} exact path="/version" />
+        <Route component={Download} exact path="/download" />
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
