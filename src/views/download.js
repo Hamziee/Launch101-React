@@ -35,7 +35,7 @@ const Download = (props) => {
         </div>
         <div className="download-btn-group">
           <a
-            href="https://1drv.ms/u/s!AndnQLIyItRihaUubYXiEiL-hmRY5w?e=9YrGbI"
+            href="https://github.com/HEO-Systems/Launch101/releases/download/latest/Launch101_Setup.msi"
             target="_blank"
             rel="noreferrer noopener"
             className="download-register button"
@@ -94,7 +94,7 @@ const Download = (props) => {
         <span className="download-text3">for Windows</span>
         <div className="download-btn-group1">
           <a
-            href="https://1drv.ms/u/s!AndnQLIyItRihaUubYXiEiL-hmRY5w?e=9YrGbI"
+            href="https://github.com/HEO-Systems/Launch101/releases/download/latest/Launch101_Setup.msi"
             target="_blank"
             rel="noreferrer noopener"
             className="download-link button"
