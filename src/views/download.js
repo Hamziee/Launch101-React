@@ -102,7 +102,7 @@ const Download = (props) => {
             Download for windows
           </a>
         </div>
-        <span className="download-text4">vALPHA3 | Windows 10+</span>
+        <span className="download-text4">vBETA1 | Windows 10+</span>
       </div>
       <Footer></Footer>
     </div>
